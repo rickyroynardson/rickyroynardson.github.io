@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body class="bg-zinc-800">
-        <header class="bg-zinc-900">
+        <header class="bg-zinc-900 sticky top-0 z-50">
             <div class="px-5 lg:px-20 mx-auto">
                 <div class="flex justify-between">
                     <a href="." class="flex items-center">
@@ -22,7 +22,7 @@
                 </div>
             </div>
         </header>
-        <section class="min-h-screen" id="beranda">
+        <section class="min-h-screen relative" id="beranda">
             <div class="shadow-lg py-8 bg-cover" style="background-image: url('./img/background.png')">
                 <div class="space-y-2 text-center">
                     <img src="img/profile.png" alt="Profile" class="border-4 rounded-full h-24 w-24 lg:h-40 lg:w-40 mx-auto" />
@@ -33,10 +33,10 @@
             <div class="mx-auto max-w-2xl text-center py-8">
                 <p class="text-2xl text-gray-200">Hai, saya Ricky! Saya seorang yang gemar coding, dan mengembangkan web yang berbasis di Kota Batam, Indonesia.</p>
             </div>
-            <div class="text-center mt-16">
+            <div class="absolute bottom-0 left-1/2 -translate-x-1/2">
                 <a href="#tentang" class="text-sm font-semibold p-2 text-white border-2 rounded-full"><i class="fas fa-circle-down"></i> Scroll ke bawah!</a>
+                <div class="text-center text-teal-600 text-6xl mt-4">- - -</div>
             </div>
-            <div class="text-center text-teal-600 text-6xl mt-4">- - -</div>
         </section>
         <section id="tentang" class="mx-auto max-w-2xl">
             <h1 class="text-4xl font-semibold text-white">Tentang Saya</h1>
